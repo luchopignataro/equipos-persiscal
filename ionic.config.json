@@ -1,6 +1,6 @@
 {
   "name": "equiposApp",
-  "app_id": "",
+  "app_id": "289f4cd3",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
