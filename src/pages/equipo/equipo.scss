@@ -1,0 +1,15 @@
+page-equipo {
+  ion-content{
+    ion-card-header{
+      border-bottom: 2px solid black;
+    }
+    .logo{
+      margin: auto;
+      text-align: center;
+
+      img{
+        max-height: 200px;
+      }
+    }
+  }
+}

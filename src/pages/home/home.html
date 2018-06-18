@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Equipos
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <!--
+    <ion-item *ngFor="let equipo of equipos">
+
+      <h2>{{equipo.name}}</h2>
+
+      <button ion-button clear item-end id="{{equipo.id}}" (click)="load(equipo.id)">ver</button>
+    </ion-item>
+    -->
+    <button ion-item *ngFor="let equipo of equipos" (click)="load(equipo.id)">
+      {{equipo.name}}
+    </button>
+  </ion-list>
+
+</ion-content>

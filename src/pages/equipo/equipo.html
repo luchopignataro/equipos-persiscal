@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{nombre}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <div class="logo">
+    <img src="{{escudo}}"/>
+  </div>
+
+
+  <ion-list>
+    <!--
+      <ion-item>
+        <ion-label>Fecha de fundación</ion-label>
+        {{escudo}}
+      </ion-item>
+    -->
+      <ion-item>
+        <p>Nombre completo</p>
+        {{nombre_completo}}
+      </ion-item>
+
+      <ion-item>
+        <p>Apodo</p>
+        {{apodo}}
+      </ion-item>
+
+      <ion-item>
+        <p>Fecha de fundación</p>
+        {{fecha}}
+      </ion-item>
+
+      <ion-item>
+        <p>Estadio</p>
+        {{estadio}}
+      </ion-item>
+    </ion-list>
+</ion-content>
